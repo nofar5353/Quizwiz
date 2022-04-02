@@ -45,7 +45,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <LambdaDemo />
-          <h1>Nofarrrrrrrrr</h1>
+          <h1>Igalllll</h1>
         </header>
       </div>
     );
