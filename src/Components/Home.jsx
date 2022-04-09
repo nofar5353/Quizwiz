@@ -23,6 +23,7 @@ function Home() {
       let tempPlayer = { playerName: props.playerName, score: props.score };
 
       if (
+        items != null &&
         items.some(
           (item) =>
             tempPlayer.playerName === item.playerName &&
