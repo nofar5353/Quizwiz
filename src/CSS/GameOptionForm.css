@@ -1,0 +1,85 @@
+.gameFormContainer {
+  position: absolute;
+  width: 50vw;
+  height: 80vh;
+  background-color: #4d908e;
+  color: black;
+  border-radius: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.gameFormContainer > div {
+  display: flex;
+  padding-right: 2vw;
+}
+
+.section1 {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nameSection,
+.section4 {
+  flex: 2;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.difficultySection {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.difficultySection > h1 {
+  flex: 1;
+}
+.difficultySection > div {
+  flex: 4;
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+}
+
+.difficultySection > div > button {
+  flex: 1;
+  margin: 3%;
+  border-radius: 5vh;
+}
+
+.section4 > button:hover,
+.section1 > button:hover {
+  cursor: pointer;
+}
+.nameSection > input {
+  border-radius: 5vh;
+  height: 60%;
+  width: 35%;
+  font-size: calc(1vw + 0.7vh + 0.7vmin);
+  padding-left: 3%;
+  background-color: #1c1c1c;
+  border: 1px solid black;
+  color: #f3722c;
+}
+
+.section4 > button {
+  width: 30%;
+  height: 50%;
+  border-radius: 5vh;
+  font-size: calc(1vw + 0.7vh + 0.5vmin);
+  background-color: #90be6d;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.section1 > button {
+  background-color: transparent;
+  border: none;
+  font-size: calc(0.7vw + 0.7vh + 0.5vmin);
+}

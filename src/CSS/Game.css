@@ -1,0 +1,22 @@
+.gameContainer {
+  height: 85vh;
+  width: 90vw;
+  border-radius: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionGameConteiner {
+  flex: 4;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gameInfoConteiner {
+  flex: 1;
+  height: 100%;
+}

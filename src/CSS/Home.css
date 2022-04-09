@@ -1,0 +1,56 @@
+body {
+  background-color: #1c1c1c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.homeContainer {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoContainer {
+  width: 60%;
+
+  margin-bottom: 10%;
+}
+
+.logoContainer > img {
+  width: 100%;
+}
+
+.PlayBtn,
+.leaderBoardBtn {
+  border: none;
+  width: 20%;
+  height: 10%;
+  border-radius: 20vh;
+  color: white;
+  font-size: calc(1vw + 0.7vh + 0.5vmin);
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+.PlayBtn {
+  background-color: #43aa8b;
+}
+
+.PlayBtn:hover {
+  opacity: 0.7;
+}
+
+.leaderBoardBtn {
+  background-color: #f8961e;
+  margin-top: 5%;
+}

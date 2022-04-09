@@ -3,10 +3,21 @@
   "version": "0.5.0",
   "private": true,
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "@react-navigation/native": "^6.0.10",
     "axios": "^0.19.0",
+    "encode-utf8": "^2.0.0",
+    "html-escaper": "^3.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "^3.0.1"
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^3.0.1",
+    "react-select": "^5.2.2",
+    "react-spring": "^9.4.4",
+    "styled-components": "^5.3.5",
+    "use-sound": "^4.0.1",
+    "utf8": "^3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
